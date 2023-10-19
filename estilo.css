@@ -1,0 +1,149 @@
+
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; /*Ok pra o tamanho Menu*/
+}
+
+/*Menu Um ao Lado do Outro*/
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; /*esse eu não conhecia*/
+    align-items: center;
+    padding: 16px;
+}
+
+/* Para todos os Links a */
+a {
+    /* Para que o link não mude de cor - elemento a */
+    color: white;
+    /* Para Tirar a linha abaixo da palavra-Link: */
+    text-decoration: none;
+}
+
+.linkNav {
+    font-size: 16px;
+}
+
+
+header img {
+    /* estilizar a imagem: */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid lightsalmon;
+}
+
+.centraliza {
+    text-align: center;
+}
+
+/* Colorir o Nome em H1 */
+h1 {
+    color: lightsalmon;
+}
+
+h3 {
+    color: lightsalmon;
+}
+
+/* Para Colocar Espaço Lateral */
+.container {
+    padding: 10px 200px; /*em cima e abaixo 0px, E e D 100px*/
+    text-align: justify;
+}
+
+
+/* quando passa o mouse muda a cor dos links */
+body a:hover {
+    color: lightsalmon;
+}
+
+
+
+/* FOOTER ====================================== */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.container_links {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+.div_linkRedeSocial {
+    /* CENTRALIZAR */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Para centralizar o texto horizontalmente */
+    /* margin: auto; */
+}
+
+.imgRedeSocial {
+    max-width: 100%; /* Certifica-se de que a imagem não ultrapasse a largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 10px; /* Adiciona um espaçamento opcional entre o texto e a imagem */
+  
+}
+
+.legendaRedeSocial {
+    margin: 5px 5px 5px 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.container_assinatura {
+    display: flex;
+    justify-content: center;
+}
+.assinatura {
+    /* DIV Assinatura */
+
+    /* P Assinatura */
+    font-family: 'Satisfy', cursive;
+    font-size: 11px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* FIM FOOTER ================================== */
+
+/* .fonte {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+} */
